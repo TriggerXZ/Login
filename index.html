@@ -4,12 +4,45 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Login</title>
 </head>
 <body>
   <header>
-    
+    <main>
+      <div class="contenedor__todo">
+        <div class="caja__trasera">
+          <div class="caja__trasera-login">
+            <h3>¿Ya tienes una cuenta?</h3>
+            <p>Inicia sesion para entrar en la pagina</p>
+            <button id="btn__iniciar-sesion">Iniciar sesion</button>
+          </div>
+
+          <div class="caja__trasera-registrate">
+            <h3>¿Aun no tienes una cuenta?</h3>
+            <p>Registrate para entrar en la pagina</p>
+            <button id="btn__registrate">Registrate</button>
+          </div>
+        </div>
+        <div class="contenedor__login-register">
+          <form action="" class="formulario__login">
+            <h2>Iniciar sesion</h2>
+            <input type="text" placeholder="Correo Electronico">
+            <input type="password" placeholder="Contraseña">
+            <button type="submit">Entrar</button>
+          </form>
+
+          <form action="" class="formulario__register">
+            <h2>Registrate</h2>
+            <input type="text" placeholder="Nombre Completo">
+            <input type="text" placeholder="Correo Electronico">
+            <input type="text" placeholder="Usuario">
+            <input type="password" placeholder="Contraseña">
+            <button type="submit">Registrate</button>
+          </form>
+        </div>
+      </div>
+    </main>
   </header>
 </body>
 </html>
