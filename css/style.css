@@ -71,3 +71,54 @@ a{
 }
 
 /*Formularios*/
+.contenedor__login-register {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: 240px;
+    left: 200px;
+}
+
+
+.contenedor__login-register form{
+    width: 100%;
+    padding: 80px 20px;
+    background: #fff;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.contenedor__login-register form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: -30px;
+    color: rgb(255, 225, 169);
+}
+
+.contenedor__login-register form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: #f2f2f2;
+}
+
+.contenedor__login-register form button{
+    margin-top: 40px;
+    padding: 10px 40px;
+    border: none;
+    font-size: 14px;
+    background: transparent;
+    border: 2px solid #263238;
+    cursor: pointer;
+    color: rgb(248, 214, 151);
+    margin-bottom: -30px;
+    margin-left: 90px;
+}
+
+.contenedor__login-register form button:hover{
+    background: #263238;
+}
