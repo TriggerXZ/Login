@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #263238;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.contenedor__todo{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.caja{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #4f5b627a;
+}
+
+.caja div{
+    margin: 100px 40px;
+    color: aliceblue;
+    transition: all 500ms;
+}
+
+.caja div p, 
+.caja div button{
+    margin-top: 30px;
+}
+
+.caja div h3{
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.caja button{
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: wheat;
+    transition: all 200ms;
+}
+
+.caja button:hover{
+    background: #fff;
+}
+
+a{
+    color: wheat;
+}
+
+/*Formularios*/
